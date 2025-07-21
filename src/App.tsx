@@ -4,6 +4,7 @@ import { VideoBackground } from './components/VideoBackground';
 import { MainContent } from './components/MainContent';
 import { DecorativeElements } from './components/DecorativeElements';
 import { PricingSection } from './components/PricingSection';
+import { ChatbotWidget } from './components/ChatbotWidget';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
       <div className="relative z-10">
         <PricingSection />
       </div>
+      
+      {/* Chatbot Widget */}
+      <ChatbotWidget />
     </div>
   );
 }
